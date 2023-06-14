@@ -10,7 +10,7 @@
 //         return this.data[this.data.length-1]
 //     }
 //     isEmpty():boolean{
-//         return this.data.length===0
+//         return ssata.length===0
 //     }
 //     size():number{
 //         return this.data.length
