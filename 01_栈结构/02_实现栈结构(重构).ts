@@ -1,7 +1,7 @@
-class ArrayStack {
+class ArrayStack<T = any> {
     private data: any[] = []
 
-    push(element): void {
+    push(element: T): void {
         this.data.push(element)
     }
 
@@ -14,7 +14,7 @@ class ArrayStack {
     }
 
     isEmpty(): boolean {
-        return this.data.length !== 0
+        return this.data.length === 0
     }
 
     size(): any {
@@ -22,6 +22,4 @@ class ArrayStack {
     }
 }
 
-const stack1 = new ArrayStack()
-
-stack1.push('aaa')
+export default ArrayStack
